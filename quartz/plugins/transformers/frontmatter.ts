@@ -4,7 +4,6 @@ import { QuartzTransformerPlugin } from "../types"
 import yaml from "js-yaml"
 import toml from "toml"
 import { slugTag } from "../../util/path"
-import { QuartzPluginData } from "../vfile"
 
 export interface Options {
   delims: string | string[]
@@ -29,7 +28,7 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options> | undefined> 
         [remarkFrontmatter, ["yaml", "toml"]],
         () => {
           return (_, file) => {
-            const { data } = matter(Buffer.from(file.value), {
+            const { data } = matter(file.value, {
               ...opts,
               engines: {
                 yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object,
@@ -45,30 +44,24 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options> | undefined> 
             // coerce title to string
             if (data.title) {
               data.title = data.title.toString()
-            } else if (data.title === null || data.title === undefined) {
-              data.title = file.stem ?? "Untitled"
             }
 
-            if (data.tags) {
-              // coerce to array
-              if (!Array.isArray(data.tags)) {
-                data.tags = data.tags
-                  .toString()
-                  .split(oneLineTagDelim)
-                  .map((tag: string) => tag.trim())
-              }
-
-              // remove all non-string tags
+            if (data.tags && !Array.isArray(data.tags)) {
               data.tags = data.tags
-                .filter((tag: unknown) => typeof tag === "string" || typeof tag === "number")
-                .map((tag: string | number) => tag.toString())
+                .toString()
+                .split(oneLineTagDelim)
+                .map((tag: string) => tag.trim())
             }
 
             // slug them all!!
-            data.tags = [...new Set(data.tags?.map((tag: string) => slugTag(tag)))]
+            data.tags = [...new Set(data.tags?.map((tag: string) => slugTag(tag)))] ?? []
 
             // fill in frontmatter
-            file.data.frontmatter = data as QuartzPluginData["frontmatter"]
+            file.data.frontmatter = {
+              title: file.stem ?? "Untitled",
+              tags: [],
+              ...data,
+            }
           }
         },
       ]

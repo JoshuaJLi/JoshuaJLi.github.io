@@ -113,10 +113,7 @@ export async function handleCreate(argv) {
     }
   }
 
-  const gitkeepPath = path.join(contentFolder, ".gitkeep")
-  if (fs.existsSync(gitkeepPath)) {
-    await fs.promises.unlink(gitkeepPath)
-  }
+  await fs.promises.unlink(path.join(contentFolder, ".gitkeep"))
   if (setupStrategy === "copy" || setupStrategy === "symlink") {
     let originalFolder = sourceDirectory
 
@@ -446,23 +443,11 @@ export async function handleUpdate(argv) {
   console.log(
     "Pulling updates... you may need to resolve some `git` conflicts if you've made changes to components or plugins.",
   )
-
-  try {
-    gitPull(UPSTREAM_NAME, QUARTZ_SOURCE_BRANCH)
-  } catch {
-    console.log(chalk.red("An error occured above while pulling updates."))
-    await popContentFolder(contentFolder)
-    return
-  }
-
+  gitPull(UPSTREAM_NAME, QUARTZ_SOURCE_BRANCH)
   await popContentFolder(contentFolder)
   console.log("Ensuring dependencies are up to date")
-  const res = spawnSync("npm", ["i"], { stdio: "inherit" })
-  if (res.status === 0) {
-    console.log(chalk.green("Done!"))
-  } else {
-    console.log(chalk.red("An error occurred above while installing dependencies."))
-  }
+  spawnSync("npm", ["i"], { stdio: "inherit" })
+  console.log(chalk.green("Done!"))
 }
 
 /**
@@ -519,25 +504,13 @@ export async function handleSync(argv) {
     console.log(
       "Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.",
     )
-    try {
-      gitPull(ORIGIN_NAME, QUARTZ_SOURCE_BRANCH)
-    } catch {
-      console.log(chalk.red("An error occured above while pulling updates."))
-      await popContentFolder(contentFolder)
-      return
-    }
+    gitPull(ORIGIN_NAME, QUARTZ_SOURCE_BRANCH)
   }
 
   await popContentFolder(contentFolder)
   if (argv.push) {
     console.log("Pushing your changes")
-    const res = spawnSync("git", ["push", "-uf", ORIGIN_NAME, QUARTZ_SOURCE_BRANCH], {
-      stdio: "inherit",
-    })
-    if (res.status !== 0) {
-      console.log(chalk.red(`An error occurred above while pushing to remote ${ORIGIN_NAME}.`))
-      return
-    }
+    spawnSync("git", ["push", "-f", ORIGIN_NAME, QUARTZ_SOURCE_BRANCH], { stdio: "inherit" })
   }
 
   console.log(chalk.green("Done!"))

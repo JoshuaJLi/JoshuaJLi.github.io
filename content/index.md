@@ -10,4 +10,4 @@ It can be a lot to look at! That's why I've sorted them by [[Technical Experienc
 
 # Highlights
 
-![[Jr. Backend Developer]]
+![[Jr. Backend Developer at SimplyAsk]]

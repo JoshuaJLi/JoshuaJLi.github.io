@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f001f4c44628779c",
+        "id": "cce2357725be8510",
         "type": "tabs",
         "children": [
           {
-            "id": "2fb9a82fef835d00",
+            "id": "8c21e7517f85c1f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Projects/CMPT 373/Social Gaming Platform.md",
-                "mode": "source",
+                "file": "index.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Projects/CMPT 373/Social Gaming Platform.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Class Projects/CMPT 373/Social Gaming Platform.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class Projects/CMPT 373/Social Gaming Platform.md"
+                "file": "index.md"
               }
             }
           }
@@ -162,20 +162,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fb9a82fef835d00",
+  "active": "8c21e7517f85c1f2",
   "lastOpenFiles": [
-    "Class Projects/CMPT 372/Paws.md",
+    "private",
+    "private/Technical Experience.md",
+    "index.md",
+    "assets/profile.jpg",
+    "assets/github-mark.svg",
+    "assets",
     "Class Projects/CMPT 373/Social Gaming Platform.md",
+    "Class Projects/CMPT 372/Paws.md",
     "Class Projects/Hope Health Action.md",
-    "Work Experience/Jr. Backend Developer at SimplyAsk.md",
+    "private/Work Experience/Jr. Backend Developer at SimplyAsk.md",
     "Class Projects/Classes/Fast Similarity Search Database System.md",
     "Class Projects/CMPT 474/Study Buddy Finder.md",
     "Class Projects/Classes/CMPT 272 - Web I Client-side Development.md",
-    "Volunteer Experience",
-    "Personal Projects/What's the Bus.md",
-    "Personal Projects/Where U @.md",
-    "index.md",
-    "Technical Experience.md",
+    "private/Volunteer Experience",
+    "private/Personal Projects/What's the Bus.md",
+    "private/Personal Projects/Where U @.md",
     "Class Projects/CMPT 276/Parent App.md",
     "Class Projects/CMPT 300/s-talk.md",
     "Class Projects/Classes/CMPT 373 - Software Development Methods.md",
@@ -192,14 +196,12 @@
     "Skills/HTML.md",
     "Skills/CSS.md",
     "Skills/C++.md",
-    "Skills/C.md",
     "Class Projects/Classes",
     "Skills",
     "Class Projects/CMPT 272",
     "Class Projects/CMPT 276",
     "Class Projects/CMPT 373",
     "Class Projects/CMPT 300",
-    "Class Projects/Assignments",
     "Untitled.canvas"
   ]
 }

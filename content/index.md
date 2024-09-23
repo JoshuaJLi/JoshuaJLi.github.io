@@ -1,13 +1,14 @@
 ---
 title: Joshua Li's Resume Site
 ---
+![[profile.jpg|200]]
 # Hello!
-My name is Joshua Li and I'm a 3rd year Software Systems student at Simon Fraser University. I'm using this website as a home for all of my cool technical projects both in and outside of school. 
+My name is Joshua and I'm a 4th year Software Systems student at Simon Fraser University. I'm using this website as a home for all of my cool technical projects both in and outside of school. 
 
-It can be a lot to look at! That's why I've sorted them by [[Technical Experience#Languages| languages]] and [[Technical Experience#Frameworks| frameworks]]. You can also just scroll down to the [[index#Highlights | highlights]] to quickly see some of the projects I'm most proud of.
 
----
+## Links
 
-# Highlights
+🔗<a href="https://www.linkedin.com/in/joshuajli/" target="_blank">LinkedIn</a>
+🐙<a href="https://github.com/JoshuaJLi" target="_blank">GitHub</a>
 
-![[Jr. Backend Developer at SimplyAsk]]
+

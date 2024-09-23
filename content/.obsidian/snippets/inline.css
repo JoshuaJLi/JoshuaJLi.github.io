@@ -1,0 +1,13 @@
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin: 0em;
+}
+
+img[alt*="icon"] {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0em;
+}

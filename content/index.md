@@ -9,6 +9,7 @@ My name is Joshua and I'm a 4th year Software Systems student at Simon Fraser Un
 ## Links
 
 🔗<a href="https://www.linkedin.com/in/joshuajli/" target="_blank">LinkedIn</a>
+
 🐙<a href="https://github.com/JoshuaJLi" target="_blank">GitHub</a>
 
 

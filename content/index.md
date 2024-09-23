@@ -1,5 +1,5 @@
 ---
-title: Joshua Li's Resume Site
+title: Joshua Li's Personal Site
 ---
 ![[profile.jpg|200]]
 # Hello!

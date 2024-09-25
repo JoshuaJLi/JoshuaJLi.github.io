@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "index.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a8673b688f452201",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Where's the Bus.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Projects/Where's the Bus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Projects/Where's the Bus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Projects/Where's the Bus.md"
               }
             }
           }
@@ -162,11 +175,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c21e7517f85c1f2",
+  "active": "a8673b688f452201",
   "lastOpenFiles": [
+    "Projects/Paws.md",
+    "Projects/Hope Health Action Haiti.md",
+    "Projects/Where's the Bus.md",
+    "assets/paws-CLR36f3L.png",
+    "index.md",
+    "Projects",
+    "assets/close.jpg",
     "private",
     "private/Technical Experience.md",
-    "index.md",
     "assets/profile.jpg",
     "assets/github-mark.svg",
     "assets",
@@ -193,15 +212,10 @@
     "Skills/Typescript.md",
     "Skills/SQL.md",
     "Skills/Java.md",
-    "Skills/HTML.md",
-    "Skills/CSS.md",
-    "Skills/C++.md",
     "Class Projects/Classes",
     "Skills",
     "Class Projects/CMPT 272",
     "Class Projects/CMPT 276",
-    "Class Projects/CMPT 373",
-    "Class Projects/CMPT 300",
     "Untitled.canvas"
   ]
 }

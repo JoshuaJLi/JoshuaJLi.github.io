@@ -13,10 +13,10 @@ My name is Joshua and I'm a 4th year Software Systems student at Simon Fraser Un
 🐙<a href="https://github.com/JoshuaJLi" target="_blank">GitHub</a>
 
 
-## Showcased Projects
+## Featured Projects
 
 💊[[Hope Health Action Haiti]] - Digitizing the medical records for hospitals in Haiti  
 
-🐾[[Paws]] - Time tracking with friends 
+🐾[[Paws]] - Time tracking with friends and virtual pets 
 
 🚌 [[Where's the Bus]] - An app for making the Compass card even more useful

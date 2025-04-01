@@ -15,8 +15,13 @@ My name is Joshua and I'm a 4th year Software Systems student at Simon Fraser Un
 
 ## Featured Projects
 
-💊[[Hope Health Action Haiti]] - Digitizing the medical records for hospitals in Haiti  
+💊[[Hope Health Action Haiti]] - Digitizing medical records for hospitals in Haiti  
 
 🐾[[Paws]] - Time tracking with friends and virtual pets 
 
-🚌 [[Where's the Bus]] - An app for making the Compass card even more useful
+🚌 [[Where's the Bus (2024)]] - An app for making the Compass card even more useful
+
+
+## Current Projects
+
+🎥 [Sr. Developer at SFU Blueprint's Reel Youth Project](https://sfublueprint.org/projectspage) - Helping to update the website and make it easier to use

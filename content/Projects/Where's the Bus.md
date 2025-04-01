@@ -7,3 +7,5 @@
 Where's the Bus is an Android app that hyperoptimizes commuting by taking advantage of the NFC functionality on phones. By tapping a Compass card against the phone's NFC reader, the app will find the nearest bus stop and send a text to find out when the next bus is coming. 
 
 Where's the Bus won nwHacks 2022's Best Hardware Hack award
+
+See also: [[Where's the Bus (2024)]]

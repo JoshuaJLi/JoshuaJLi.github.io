@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "a2a21943d29b3086",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Where's the Bus (2024).md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Where's the Bus (2024)"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Projects/Where's the Bus (2024).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Where's the Bus (2024)"
             }
           }
         ],
@@ -201,11 +215,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8673b688f452201",
+  "active": "a2a21943d29b3086",
   "lastOpenFiles": [
+    "index.md",
     "Projects/Where's the Bus (2024).md",
     "Projects/Where's the Bus.md",
-    "index.md",
     "Projects/Paws.md",
     "Projects/Hope Health Action Haiti.md",
     "assets/paws-CLR36f3L.png",
